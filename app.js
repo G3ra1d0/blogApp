@@ -11,7 +11,7 @@ const path = require("path")
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // Handle Bars
-app.engine("handlbars", handlebars({ defaultLayout: "main" }));
+app.engine("handlebars", handlebars({ defaultLayout: "main" }));
 app.set("view egine", "handlebars");
 // Mongoose
 // Public
